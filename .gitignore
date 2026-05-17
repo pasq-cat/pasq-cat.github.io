@@ -1,0 +1,16 @@
+/.quarto/
+**/*.quarto_ipynb
+
+# Quarto render output (do not commit generated HTML)
+/_site/
+
+# Optional alternate output folder if configured later
+/docs/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+
+# agent md
+.github/agents/quarto-minimal-blog.agent.md
