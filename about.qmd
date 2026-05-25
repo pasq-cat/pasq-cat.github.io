@@ -1,19 +1,19 @@
 ---
 title: "About"
-image: profile.jpg
+image: image_profile.png
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/pasquale-c-9108a1133/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/pasq-cat
 
 ---
 
 About this blog
+
+This is a personal blog about data science, machine learning, and programming. I will share my thoughts, projects, and tutorials on these topics.
+It's the first time I create a blog, so please bear with me as I learn and improve. If you have any feedback or suggestions, feel free to contact me through the links above. Thank you for visiting!
