@@ -27,11 +27,13 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Setup Python with Conda
-        uses: conda-incubator/setup-miniconda@v3
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          environment-file: environment.yml
-          activate-environment: quarto_env
+          python-version: '3.11'
+          
+      - name: Install Python packages
+        run: pip install -r requirements.txt
 
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
