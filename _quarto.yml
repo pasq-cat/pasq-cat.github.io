@@ -1,6 +1,8 @@
 project:
   type: website
 
+jupyter: quarto_env
+
 website:
   description: "A blog built with Quarto"
   site-url: https://pasq-cat.github.io # you must change this appropriately for RSS feeds to work properly

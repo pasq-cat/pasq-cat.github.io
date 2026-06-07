@@ -11,6 +11,15 @@
 .DS_Store
 Thumbs.db
 
+/_freeze/
 
 # agent md
 .github/agents/quarto-minimal-blog.agent.md
+# vs code settings
+.vscode/settings.json
+
+# fix_kernel
+fix_kernels.ps1
+
+#env
+/.env

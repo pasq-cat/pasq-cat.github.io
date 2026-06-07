@@ -1,1 +1,36 @@
-/* css styles */
+:root, html, body, .quarto-body, .quarto-page, .page, .site {
+
+  font-size: 22px !important;
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+}
+
+/* Allarga solo la colonna centrale delle pagine articolo (post) */
+@media (min-width: 992px) {
+  body.fullcontent:not(.floating):not(.docked) .page-columns {
+    grid-template-columns:
+      [screen-start] 1.5em
+      [screen-start-inset] 5fr
+      [page-start] 35px
+      [page-start-inset] 35px
+      [body-start-outset] 35px
+      [body-start] 1.5em
+      [body-content-start] minmax(600px, 1100px)
+      [body-content-end] 1.5em
+      [body-end] 35px
+      [page-end] 5fr
+      [screen-end-inset] 1.5em
+      [screen-end];
+  }
+}
+
+
+/* Regola titoli proporzionalmente */
+h1 { font-size: 2.0rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+/* Migliora leggibilità su mobile */
+@media (max-width: 767px){
+  html { font-size: 22px; }
+}
