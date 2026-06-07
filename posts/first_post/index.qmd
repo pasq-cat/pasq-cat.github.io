@@ -121,4 +121,3 @@ plt.tight_layout()
 plt.show()
 ```
 '''
-This code generates a 3D plot of a sphere with a spherical triangle defined by three vertices A, B, and C. The great circle arcs connecting the vertices are also plotted. The resulting image is included in the post to test how it looks when published. '''\
